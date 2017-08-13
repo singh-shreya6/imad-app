@@ -7,18 +7,18 @@ app.use(morgan('combined'));
 
 var articles{
 
-    `article-one`:{
+    `article-one`={
     title: 'article-one/Shreya Singh',
     heading: 'Article one',
-    date: 'August 13,2017',
+    date:'August 13,2017',
     content: `<p>This is the content for my first article</p>`
     },
-    `article-two`:{ title: 'article-two/Shreya Singh',
+    `article-two`={ title: 'article-two/Shreya Singh',
     heading: 'Article two',
     date: 'August 13,2017',
     content: `<p>This is the content for my second article</p>`
     },
-    `article-three`:{title: 'article-three/Shreya Singh',
+    `article-three`={title: 'article-three/Shreya Singh',
     heading: 'Article three',
     date: 'August 13,2017',
     content: `<p>This is the content for my third article</p>`
