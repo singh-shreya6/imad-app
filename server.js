@@ -61,9 +61,9 @@ function createTemplate(data){
 var app = express();
 app.use(morgan('combined'));
 
-/*app.get('/', function (req, res) {
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'shreya.html'));
-});*/
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
